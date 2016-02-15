@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="_home_sanjiv_Map_it_libs_SKMaps_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/SKMaps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
