@@ -27,7 +27,7 @@ public class SplashActivity extends Activity implements SKPrepareMapTextureListe
     private String mapResDirPath;
     public static final long KILO = 1024;
     public static final long MEGA = KILO * KILO;
-    int a =5;
+    int a =7;
 
     private final int SPLASH_DISPLAY_LENGTH = 3000;
 
