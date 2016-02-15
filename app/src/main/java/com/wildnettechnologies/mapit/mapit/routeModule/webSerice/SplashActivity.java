@@ -1,4 +1,4 @@
-package com.wildnettechnologies.mapit.mapit;
+package com.wildnettechnologies.mapit.mapit.routeModule.webSerice;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.os.StatFs;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
 import com.skobbler.ngx.SKDeveloperKeyException;
 import com.skobbler.ngx.SKMaps;
 import com.skobbler.ngx.SKMapsInitSettings;
@@ -17,6 +18,7 @@ import com.skobbler.ngx.SKPrepareMapTextureListener;
 import com.skobbler.ngx.SKPrepareMapTextureThread;
 import com.skobbler.ngx.map.SKMapViewStyle;
 import com.skobbler.ngx.navigation.SKAdvisorSettings;
+import com.wildnettechnologies.mapit.mapit.R;
 import com.wildnettechnologies.mapit.mapit.routeModule.RouteActivity;
 
 import java.io.File;
