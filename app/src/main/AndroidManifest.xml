@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wildnettechnologies.mapit.mapit">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.skobbler.ngx.API_KEY"
+            android:value="a6ba17c899bbe7328d345a7d8eec33a7699b44c8bc0ac12c42e1e41856c2c784" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/noAnimTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".routeModule.RouteActivity"
+            android:label="@string/title_activity_route"
+            android:theme="@style/noAnimTheme" />
+        <activity
+            android:name=".routeModule.InitialSearchActivity"
+            android:theme="@style/noAnimTheme" />
+        <activity
+            android:name=".routeModule.SearchActivity"
+            android:theme="@style/noAnimTheme" />
+    </application>
+
+</manifest>

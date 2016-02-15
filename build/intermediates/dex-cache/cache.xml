@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-4bb7d885a6d1d3a74ff394af255edf7dfcb93113.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/classes-0ed1a04e993262bb4283511a11e29c05b9598e08.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/classes-67efb2be985dab4d2bbbc5b051e339c2e3832d87.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-f41d4a1576fad90f28282651aa23d66d19f636dd.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/libs/SKMaps.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="10e6811463d022935a908941acc92ea2fa0c3781">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/SKMaps-d7484049eabb7c465c823a08b612e6c4a06df12a.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/classes-0e90e70a7f60e195965b4e0943cf0906c41cf7e8.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/classes-06688acfb78e5b847df6e7806ef83bea15006412.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/classes-4ae7e1480cfc5ef47f714b71ce5c29814f423c7c.jar" />
+    </item>
+    <item
+        jar="/home/sanjiv/android-sdks/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/sanjiv/abhihsek/Map-it/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-325f6605950b2b2e23b866fb2da8f421dc094e6b.jar" />
+    </item>
+
+</items>

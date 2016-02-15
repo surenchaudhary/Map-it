@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#363636</color>
+    <color name="colorPrimaryDark">#363636</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimarySearch">#1b38e1</color>
+    <color name="colorPrimaryDarkSearch">#1b38e1</color>
+    <color name="grey">#b4b5c2</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="whitish_grey">#c0c0c0</color>
+    <color name="blue_panel_day_background">#0c88e7</color>
+    <color name="white_yellow">#f5f5f0</color>
+
+</resources>

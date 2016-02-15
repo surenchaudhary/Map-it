@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">144dp</dimen>
+
+    <dimen name="footer_margin">60dp</dimen>
+    <dimen name="header_margin">124dp</dimen>
+    <dimen name="header_height">48dp</dimen>
+    <dimen name="header_height_nav_bar">54dp</dimen>
+
+    <dimen name="search_header_height">88dp</dimen>
+
+    <dimen name="space_vvvlow">2dp</dimen>
+    <dimen name="space_vvlow">4dp</dimen>
+    <dimen name="space_vlow">8dp</dimen>
+    <dimen name="space">16dp</dimen>
+    <dimen name="space_high">24dp</dimen>
+    <dimen name="space_vhigh">30dp</dimen>
+    <dimen name="space_vvhigh">54dp</dimen>
+    <dimen name="space_vvvhigh">114dp</dimen>
+
+    <dimen name="search_list_row_height">72dp</dimen>
+
+    <dimen name="text_size">18dp</dimen>
+    <dimen name="text_size_medium">20dp</dimen>
+    <dimen name="text_size_high">48dp</dimen>
+    <dimen name="text_size_low">14dp</dimen>
+
+    <dimen name="main_list_view_margin_top">100dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_menu_height">220dp</dimen>
+    <dimen name="nav_menu_width">280dp</dimen>
+
+    <dimen name="frag_nav_bar_width_padding">96dp</dimen>
+    <dimen name="frag_nav_bar_height_padding">24dp</dimen>
+
+</resources>

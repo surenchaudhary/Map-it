@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_search_list_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:paddingLeft="@dimen/space"
+    android:paddingRight="@dimen/space"
+    android:elevation="@dimen/space_vvvlow"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_login">
+
+
+    <ImageButton
+        android:id="@+id/location_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:src="@drawable/location_icon"
+        android:layout_weight="2"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/space"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="7"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_vvvlow">
+
+            <TextView
+                android:id="@+id/text_view_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_horizontal|left"
+                android:hint="Signature Villa"
+                android:singleLine="true"
+                android:textColor="@color/blue_panel_day_background"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/text_view_distance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.0"
+                android:background="@color/white"
+                android:gravity="left|center_vertical"
+                android:hint="(6.8miles)"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_low"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:background="@color/white"
+            android:gravity="left"
+            android:hint="The Bridge, Sports City, Mumbai"
+            android:paddingTop="@dimen/space_vlow"
+            android:singleLine="true"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/favourites_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space"
+            android:background="@color/white"
+            android:src="@drawable/favorite_inactive" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/init_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:background="@color/white"
+                android:src="@drawable/add_button" />
+
+            <ImageButton
+                android:id="@+id/listings_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginTop="@dimen/space_vlow"
+                android:background="@color/white"
+                android:src="@drawable/list_icon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

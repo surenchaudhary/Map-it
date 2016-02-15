@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_search_list_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_vlow"
+    android:layout_marginRight="@dimen/space_vlow"
+    android:background="@color/white"
+    android:elevation="@dimen/space_vvvlow"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_vlow"
+    tools:showIn="@layout/activity_login">
+
+
+    <ImageButton
+        android:id="@+id/clock_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@drawable/recent_location_search_icon"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:padding="@dimen/space_vlow">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_init_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="left"
+                android:hint="Signature Villa"
+                android:padding="@dimen/space_vvvlow"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@color/white"
+            android:gravity="left"
+            android:hint="The Bridge, Sports City, Mumbai"
+            android:padding="@dimen/space_vvvlow"
+            android:singleLine="true"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size_low"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+</LinearLayout>
